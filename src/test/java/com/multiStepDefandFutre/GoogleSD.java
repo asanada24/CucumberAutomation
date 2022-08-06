@@ -40,7 +40,7 @@ public class GoogleSD {
     @Then("user closes the browser")
     public void user_closes_the_browser() throws InterruptedException {
         driver.close();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
 
     }
 
